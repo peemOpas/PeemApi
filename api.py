@@ -23,7 +23,7 @@ app = Flask(__name__)
 
 @app.route("/peem")
 def hello_world():
-    app.logger.info('first test message wowow...')
+    app.logger.info('first test message wowow test again...')
     
     return jsonify(
         username="daniel",
