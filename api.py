@@ -1,7 +1,15 @@
 from flask import Flask
+from flask import jsonify
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/peem")
 def hello_world():
-    return "<p>Hello, World!eiei</p>"
+    app.logger.info('API return to log in')
+
+
+    return jsonify(
+        username="daniel",
+        email="daniel@godpeem.com",
+        id="123",
+    )
