@@ -26,6 +26,9 @@ action.drag_and_drop_by_offset(element,500,0)
 action.perform()
 
 
+
+
+
 #Selected one of Category
 driver.implicitly_wait(waittime)
 element2 = driver.find_element_by_css_selector("#multiselectContainerReact > div.optionListContainer.displayBlock > ul > li:nth-child(1) > input")
@@ -113,6 +116,14 @@ element15 = driver.find_element_by_css_selector("#multiselectContainerReact > di
 # action5 = ActionChains(driver)
 action.drag_and_drop_by_offset(element15,100,0)
 action.perform()
+
+
+
+
+
+
+
+
 
 
 
